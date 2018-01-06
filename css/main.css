@@ -11,7 +11,7 @@ html {
 }
 
 .icon-link:hover {
-  color: #f15a29;
+  color: #c83645;
   border-bottom: 2px dotted #c83645;
 }
 
@@ -86,7 +86,7 @@ fieldset {
   border: 0;
 }
 
-legend,
+.h3,
 h3 {
     color: #fff;
 }
