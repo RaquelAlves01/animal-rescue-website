@@ -118,6 +118,10 @@ h3 {
 
 /* end-of-filter----> */
 
+.input-required {
+  background-color: rgba(100, 0, 0, 0.3);
+}
+
 .footer-nav {
   color: #c83645;
 }
