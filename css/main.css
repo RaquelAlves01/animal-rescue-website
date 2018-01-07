@@ -3,7 +3,7 @@ html {
 }
 
 .serif {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 }
 
 .icon-link {
@@ -28,7 +28,7 @@ h1 {
 }
 
 #banner {
-  background-color: #ae9072;
+  background-color: #ae9780;
 }
 
 .img-div {
@@ -42,7 +42,7 @@ h1 {
 
 #about-us {
   background-color: #de9d9b;
-  background-image: url(../images/bg-patterns.svg), url(../images/bg-patterns.svg) ;
+  background-image: url("../images/bg-patterns.svg"), url("../images/bg-patterns.svg");
   background-size: 38px auto;
   background-position: top left, bottom left;
   background-repeat: repeat-x, repeat-x;
@@ -70,6 +70,7 @@ h1 {
 
 .animal-index:hover .animal-name {
   color: #000;
+  text-shadow: 3px 3px 30px;
 }
 
 .ad-nav {
@@ -87,11 +88,11 @@ fieldset {
 
 .h3,
 h3 {
-    color: #fff;
+  color: #fff;
 }
 
 .hover-box-caption {
-  bottom: -6em;
+  bottom: -12em;
   left: 0;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .5));
   color: #fff;
@@ -99,13 +100,12 @@ h3 {
   transition: all .2s linear;
 }
 
-
 .hover-box:hover .hover-box-caption,
 .hover-box:focus .hover-box-caption {
   bottom: 0;
 }
 
-/*filter---->*/
+/* filter----> */
 
 .all-bears:checked ~ .animal-list .other-animals-select {
   display: none;
@@ -115,8 +115,7 @@ h3 {
   display: none;
 }
 
-/*end-of-filter---->*/
-
+/* end-of-filter----> */
 
 .footer-nav {
   color: #c83645;
@@ -131,6 +130,7 @@ h3 {
   background-color: #fff;
   border: 2px solid #c83645;
   color: #c83645;
+  box-shadow: 1px 2px 3px;
 }
 
 .btn:hover {
@@ -139,15 +139,13 @@ h3 {
   color: #fff;
 }
 
-
-#hours-day {
+#hours-day dt {
   width: 3.5em;
   color: #c83645;
-
 }
 
 .ad-info-footer {
-  background-color: #ae9072;
+  background-color: #ae9780;
 }
 
 .copyright {
