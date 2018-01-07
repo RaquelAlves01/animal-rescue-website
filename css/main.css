@@ -69,8 +69,9 @@ h1 {
 }
 
 .animal-index:hover .animal-name {
-  color: #000;
-  text-shadow: 3px 3px 30px;
+  color: #c83645;
+  text-shadow: 4px 3px 70px;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .ad-nav {
