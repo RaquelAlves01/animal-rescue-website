@@ -28,7 +28,15 @@ h1 {
 }
 
 #banner {
-  background-color: #ae9780;
+  background-color: #aea196;
+}
+
+.call-to-action p {
+  color: #fff;
+}
+
+.call-to-action h1 {
+  text-shadow: 1px 2px 40px #000;
 }
 
 .img-div {
@@ -70,7 +78,7 @@ h1 {
 
 .animal-index:hover .animal-name {
   color: #c83645;
-  text-shadow: 4px 3px 70px;
+  text-shadow: 4px 3px 70px #000;
   font-family: "Merriweather Sans", sans-serif;
 }
 
@@ -150,7 +158,7 @@ h3 {
 }
 
 .ad-info-footer {
-  background-color: #ae9780;
+  background-color: #aea196;
 }
 
 .copyright {
