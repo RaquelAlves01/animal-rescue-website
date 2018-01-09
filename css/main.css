@@ -50,10 +50,6 @@ h1 {
 
 #about-us {
   background-color: #de9d9b;
-  background-image: url("../images/bg-patterns.svg"), url("../images/bg-patterns.svg");
-  background-size: 38px auto;
-  background-position: top left, bottom left;
-  background-repeat: repeat-x, repeat-x;
 }
 
 .about-us-content {
@@ -97,7 +93,7 @@ fieldset {
 
 .h3,
 h3 {
-  color: #fff;
+  color: #000;
 }
 
 .hover-box-caption {
@@ -127,15 +123,15 @@ h3 {
 /* end-of-filter----> */
 
 .input-required {
-  background-color: rgba(100, 0, 0, 0.3);
+  background-color: rgba(100, 0, 0, .3);
 }
 
 .footer-nav {
-  color: #c83645;
+  color: #511017;
 }
 
 .footer-nav:hover {
-  color: #584838;
+  color: #e3e3e3;
   border-bottom: 2px dotted #372e24;
 }
 
@@ -154,7 +150,7 @@ h3 {
 
 #hours-day dt {
   width: 3.5em;
-  color: #c83645;
+  color: #511017;
 }
 
 .ad-info-footer {
