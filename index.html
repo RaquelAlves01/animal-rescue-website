@@ -4,12 +4,13 @@
   <meta charset="utf-8">
   <title>ABOWA • Homepage</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="images/favicon.ico" rel="shortcut icon">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="/favicon-196.png">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700|Merriweather:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400|Merriweather:400" rel="stylesheet">
 
 </head>
 <body>
@@ -26,12 +27,14 @@
           <img src="images/bears.svg" alt="" aria-details="ABOWA-Shelter-Logo">
         </i>
       </div>
-      <nav role="navigation" id="nav" class="unit [ xs-1 s-1 m-3-4 l-3-4 ] tabindex="0"">
+      <nav role="navigation" id="nav" class="unit [ xs-1 s-1 m-3-4 l-3-4 ]" tabindex="0">
         <ul class="list-group-inline text-center">
-          <li class="push-1-4"><a class="icon-link gutter-1-4 bold" href="#">Home</a></li>
+          <li class="push-1-4"><a class="icon-link gutter-1-4 bold" href="index.html">Home</a></li>
           <li class="push-1-4"><a class="icon-link gutter-1-4 bold" href="rescues.html">Adoptable Animals</a></li>
           <li class="push-1-4"><a class="icon-link gutter-1-4 bold" href="adopt.html">Application</a></li>
-          <li class="push-1-4"><a class="icon-link gutter-1-4 bold" href="#">Donate</a></li>
+          <li class="push-1-4">
+            <p class="icon-link gutter-1-4 bold push-none">Donate</p>
+          </li>
         </ul>
       </nav>
     </div>
@@ -42,7 +45,7 @@
     <section id="banner" class="unit [xs-1 s-1 m-1 l-1] banner" tabindex="0">
       <div class="relative img-div img-banner">
         <div class="embed embed-3by2">
-          <img class="embed-item img-flex" src="images/banner-index.jpg" aria-details="A-banner-image-of-a-rescued-rackoon">
+          <img class="embed-item img-flex" src="images/banner-index.jpg" alt="" aria-details="A-banner-image-of-a-rescued-rackoon">
         </div>
         <div class="absolute pin-c pad-t call-to-action">
           <h1 class="tena push-0" data-shadow="Help make a difference today">Help Make a difference today!</h1>
@@ -63,17 +66,7 @@
     <section class="adoptable-animals pad-t pad-b gutter" id="adoptable-animals">
       <h2 class="pad-t-2">Adoptable Animals</h2>
       <ul class="list-group grid pad-b">
-        <li class="unit [xs-1 s-1 m-1-2 l-1-4 ] pad-t pad-b animal-index push-1-2">
-          <div class="animal-card gutter-1-4">
-            <div class="embed embed-3by2">
-              <img class="embed-item img-flex" src="images/loretta.jpg" alt="" aria-details="An-image-of-Loretta-the-4-year-old-brown-bear">
-            </div>
-            <p class="animal-name giga push-0 pad-t serif bold">Loretta</p>
-            <p class="animal-type push-0">Brown Bear</p>
-            <p class="animal-age milli">4 years old</p>
-          </div>
-        </li>
-        <li class="unit [xs-1 s-1 m-1-2 l-1-4 ] pad-t pad-b animal-index push-1-2">
+        <li class="unit [xs-1 s-1 m-1-2 l-1-2 ] pad-t pad-b animal-index push-1-2">
           <div class="animal-card gutter-1-4">
             <div class="embed embed-3by2">
               <img class="embed-item img-flex" src="images/aspen.jpg" alt="" aria-details="An-image-of-Aspen-the-3-month-old-American-blackbear-cub">
@@ -83,17 +76,7 @@
             <p class="animal-age milli"> 3 months old</p>
           </div>
         </li>
-        <li class="unit [xs-1 s-1 m-1-2 l-1-4 ] pad-t pad-b animal-index push-1-2">
-          <div class="animal-card gutter-1-4">
-            <div class="embed embed-3by2">
-              <img class="embed-item img-flex" src="images/mel.jpg" alt="" aria-details="An-image-of-Mel-the-1-year-old-Red-Panda">
-            </div>
-            <p class="animal-name giga push-0 pad-t serif bold">Mel</p>
-            <p class="animal-type push-0">Red Panda Bear Cat</p>
-            <p class="animal-age milli">1 year old</p>
-          </div>
-        </li>
-        <li class="unit [xs-1 s-1 m-1-2 l-1-4 ] pad-t pad-b animal-index push-1-2">
+        <li class="unit [xs-1 s-1 m-1-2 l-1-2 ] pad-t pad-b animal-index push-1-2">
           <div class="animal-card gutter-1-4">
             <div class="embed embed-3by2">
               <img class="embed-item img-flex" src="images/mr.gibbs.jpg" alt="" aria-details="An-image-of-Mr.Gibbs-the-7-year-old-Giraffe">
@@ -131,7 +114,7 @@
                   <input type="email" id="email" required>
                 </div>
                 <div class="text-center push-0">
-                  <button type="submit"  class="btn btn-ghost gutter bold" name="button">Submit</button>
+                  <button type="submit" class="btn btn-ghost gutter bold">Submit</button>
                 </div>
               </div>
             </fieldset>
@@ -143,12 +126,24 @@
           <hr>
           <nav>
             <ul class="list-group gutter text-left">
-              <li><p class="icon-link footer-nav push-0 inline">Surrender a Pet</p></li>
-              <li><p class="icon-link footer-nav push-0 inline">Lost and Found</p></li>
-              <li><p class="icon-link footer-nav push-0 inline">Animal Licensing</p></li>
-              <li><p class="icon-link footer-nav push-0 inline">Humane Education</p></li>
-              <li><p class="icon-link footer-nav push-0 inline">Microchipping</p></li>
-              <li><p class="icon-link footer-nav push-0 inline">Cremation</p></li>
+              <li>
+                <p class="icon-link-footer footer-nav push-0 inline">Surrender a Pet</p>
+              </li>
+              <li>
+                <p class="icon-link-footer footer-nav push-0 inline">Lost and Found</p>
+              </li>
+              <li>
+                <p class="icon-link-footer footer-nav push-0 inline">Animal Licensing</p>
+              </li>
+              <li>
+                <p class="icon-link-footer footer-nav push-0 inline">Humane Education</p>
+              </li>
+              <li>
+                <p class="icon-link-footer footer-nav push-0 inline">Microchipping</p>
+              </li>
+              <li>
+                <p class="icon-link-footer footer-nav push-0 inline">Cremation</p>
+              </li>
             </ul>
           </nav>
         </div>
@@ -156,10 +151,13 @@
           <h3 class="giga push-1-4">Contact Us</h3>
           <hr>
           <div class=" gutter">
-            <dl >
-              <dt class="bold">3173 Hwy K 68 Ottawa,</dt><dd class="bold"> Kansas 66067</dd>
-              <dt>Phone:</dt><dd class="push-0">(888) 888-8888</dd>
-              <dt>Fax:</dt><dd>(888) 888-8888</dd>
+            <dl>
+              <dt class="bold">3173 Hwy K 68 Ottawa,</dt>
+              <dd class="bold"> Kansas 66067</dd>
+              <dt>Phone:</dt>
+              <dd class="push-0">(888) 888-8888</dd>
+              <dt>Fax:</dt>
+              <dd>(888) 888-8888</dd>
             </dl>
           </div>
         </div>
@@ -167,13 +165,20 @@
           <h3 class="giga push-1-4"> Hours</h3>
           <hr>
           <dl id="hours-day" class="list-group-inline gutter hours">
-            <dt class="bold">Mon:</dt><dd class="gutter-1-4 push-0"> 11AM - 6PM</dd>
-            <dt class="bold">Tues:</dt><dd class="gutter-1-4 push-0 bold">Closed</dd>
-            <dt class="bold">Wed:</dt><dd class="gutter-1-4 push-0">1AM - 6PM</dd>
-            <dt class="bold">Thurs:</dt><dd class="gutter-1-4 push-0">1AM - 6PM</dd>
-            <dt class="bold">Fri:</dt><dd class="gutter-1-4 push-0 bold">Closed</dd>
-            <dt class="bold">Sat:</dt><dd class="gutter-1-4 push-0">1AM - 6PM</dd>
-            <dt class="bold">Sun:</dt><dd class="gutter-1-4 push-0 bold">Closed</dd>
+            <dt class="bold">Mon:</dt>
+            <dd class="gutter-1-4 push-0"> 11AM - 6PM</dd>
+            <dt class="bold">Tues:</dt>
+            <dd class="gutter-1-4 push-0 bold">Closed</dd>
+            <dt class="bold">Wed:</dt>
+            <dd class="gutter-1-4 push-0">1AM - 6PM</dd>
+            <dt class="bold">Thurs:</dt>
+            <dd class="gutter-1-4 push-0">1AM - 6PM</dd>
+            <dt class="bold">Fri:</dt>
+            <dd class="gutter-1-4 push-0 bold">Closed</dd>
+            <dt class="bold">Sat:</dt>
+            <dd class="gutter-1-4 push-0">1AM - 6PM</dd>
+            <dt class="bold">Sun:</dt>
+            <dd class="gutter-1-4 push-0 bold">Closed</dd>
           </dl>
 
         </div>

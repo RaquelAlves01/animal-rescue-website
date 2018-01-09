@@ -4,18 +4,19 @@
   <meta charset="utf-8">
   <title>ABOWA • Adopt a Rescue</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="images/favicon.ico" rel="shortcut icon">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="/favicon-196.png">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700|Merriweather:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400|Merriweather:400" rel="stylesheet">
 
 </head>
 <body>
 
   <ul class="skip-links" tabindex="0">
-    <li><a href="#nav" >Jump to navigation</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
     <li><a href="#main" tabindex="0">Jump to main content</a></li>
   </ul>
 
@@ -26,18 +27,20 @@
           <img src="images/bears.svg" alt="" aria-details="ABOWA-Shelter-Logo">
         </i>
       </div>
-      <nav role="navigation" id="nav" class="unit [ xs-1 s-1 m-3-4 l-3-4 ] ">
+      <nav role="navigation" id="nav" class="unit [ xs-1 s-1 m-3-4 l-3-4 ]" tabindex="0">
         <ul class="list-group-inline text-center">
           <li class="push-1-4"><a class="icon-link gutter-1-4 bold" href="index.html">Home</a></li>
           <li class="push-1-4"><a class="icon-link gutter-1-4 bold" href="rescues.html">Adoptable Animals</a></li>
           <li class="push-1-4"><a class="icon-link gutter-1-4 bold" href="adopt.html">Application</a></li>
-          <li class="push-1-4"><a class="icon-link gutter-1-4 bold" href="#">>Donate</a></li>
+          <li class="push-1-4">
+            <p class="icon-link gutter-1-4 bold push-none">Donate</p>
+          </li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main role="main" id="main"  tabindex="0">
+  <main role="main" id="main" tabindex="0">
 
     <section id="banner" class="unit [xs-1 s-1 m-1 l-1] banner" tabindex="0">
       <div class="relative img-div img-banner">
@@ -45,7 +48,8 @@
           <img class="embed-item img-flex" src="images/banner-adopt.jpg" alt="" aria-details="A-banner-image-of-a-rescued-flamingo-enjoying-a-bath-in-our-local-lake">
         </div>
         <div class="absolute pin-c pad-t call-to-action">
-          <h1 class="tena push-0" data-shadow="Here you'll find the perfect animal for you">Here you'll find the perfect animal for you.</h1>
+          <h1 class="tena" data-shadow="Here you'll find the perfect animal for you">Here you'll find the perfect animal for you.</h1>
+          <a class="btn btn-ghost mega" href="rescues.html">See the animals we have here</a>
         </div>
       </div>
     </section>
@@ -67,7 +71,7 @@
             <p class="push-0">The adoption price includes a micro chip registered in your name at the time of adoption. Any Animal that is six months of age or older will be tested for Heartworms and if found negative, will be kept on Heartworm prevention during their shelter stay, after the adoption it is up to the adopter to continue the highly recommended Heartworm preventative treatment.</p>
             <p>Adopters get a free consultation at an area vet partner within 14 days of adoption.</p>
           </div>
-          <div >
+          <div>
             <h3 class="push-1-2">ABOWA Rescue Adoption information</h3>
             <p><b class="bold">All highlighted areas are mandatory.</b> We need to know you as well as we can so please provide us with information that is as accurate as possible. Most of these questions do not have "right" or "wrong" answers. They are a way for us to verify that the animal you have selected would be well suited to your home and lifestyle. Frequently Asked Questions about adoption.</p>
           </div>
@@ -76,263 +80,263 @@
     </section>
 
     <section class="pad-t-2 pad-b-2 gutter wrapper" tabindex="0">
-    <form class="push-0 wrapper" action="//formspree.io/alve0026@algonquinlive.com" method="POST">
-      <fieldset>
-        <legend class="pad-t zetta push">About you</legend>
-        <div class="grid">
-          <div class="unit [ xs-1 s-1 m-1 l-1 ] pad-b push-1-2">
-            <div class="grid">
-              <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
-                <label class="milli" for="name-animal">Name of the animal on the ABOWA website:</label>
+      <form class="push-0 wrapper" action="//formspree.io/alve0026@algonquinlive.com" method="POST">
+        <fieldset>
+          <legend class="pad-t zetta push">About you</legend>
+          <div class="grid">
+            <div class="unit [ xs-1 s-1 m-1 l-1 ] pad-b push-1-2">
+              <div class="grid">
+                <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+                  <label class="milli" for="name-animal">Name of the animal on the ABOWA website:</label>
+                </div>
+                <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter-2">
+                  <input type="text" id="name-animal" name="name-animal">
+                </div>
               </div>
-              <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter-2">
-                <input type="text" id="name-animal" name="name-animal">
+            </div>
+
+            <div class="unit [ xs-1 s-1 m-1 l-1 ]">
+              <div class="grid">
+                <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ]">
+                  <label for="checkbox-1" class="milli push">I understand that this application form is not a guarantee that the animal I have applied for will still be available if my application to adopt an animal is approved, as there could be several applications for this dog already in progress or the dog may have a requirement that my home does not provide.</label>
+                </div>
+                <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
+                  <select id="checkbox-1" name="understand">
+                    <option value="yes-1">yes</option>
+                    <option value="no-1">no</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="unit [ xs-1 s-1 m-1 l-1 ] ">
+              <div class="grid">
+                <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ] ">
+                  <label for="checkbox-2" class="milli push">I understand that ABOWA does not approve their animals to applicants on a "first come first serve" basis, it is the best interest of the animal that is considered in the event of multiple applications for the same animal and the home best suited to the specific needs of the animal will be selected.</label>
+                </div>
+                <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
+                  <select id="checkbox-2" name="if-not-approved">
+                    <option value="yes-2">yes</option>
+                    <option value="no-2">no</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="unit xs-1 s-1 m-1 l-1">
+              <div class="grid">
+                <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ] ">
+                  <label for="checkbox-3" class="milli push">In the event that the animal I have applied for is approved to another adopter before my application is processed I will select another animal from the ABOWA website and continue with my application screening.</label>
+                </div>
+                <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
+                  <select id="checkbox-3" name="in-event">
+                    <option value="yes-3">yes</option>
+                    <option value="no-3">no</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="unit [ xs-1 s-1 m-1 l-1 ] ">
+              <div class="grid">
+                <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ] ">
+                  <label for="checkbox-4" class="milli push"> I understand and accept that virtually all "rescued" animal will have behavioral issues of varying degrees. Many of these animals have been abused or neglected and have a tendency to be more timid and/or defensive than an animal raised from birth by a knowledgeable and responsible dog owner. I understand and accept that while all known behavioral issues will be disclosed prior to the adoption being completed, it is entirely possible that minor or major behavioral issues may arise after the adoption has occurred and the dog is in my home. I am not expecting a pre-trained animal and am willing to work with this dog to help it overcome any issues it may have, or develops while under my care.</label>
+                </div>
+                <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
+                  <select id="checkbox-4" name="behavioral">
+                    <option value="yes-4">yes</option>
+                    <option value="no-4">no</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="unit [ xs-1 s-1 m-1 l-1 ] ">
+              <div class="grid">
+                <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ] ">
+                  <label for="checkbox-5" class="milli push">I understand and accept that although all ABOWA animals have been evaluated by a veterinarian, and that a copy of the veterinarian's report(s) will be provided at the time of adoption, it is possible that the animal may have minor or major medical issues that are undiagnosed. I understand and accept that the approximate age of the animal is estimated by a veterinarian and may be slightly or significantly inaccurate.</label>
+                </div>
+                <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
+                  <select id="checkbox-5" name="health">
+                    <option value="yes-5">yes</option>
+                    <option value="no-5">no</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="unit [ xs-1 s-1 m-1 l-1 ] ">
+              <div class="grid">
+                <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ] ">
+                  <label for="checkbox-6" class="milli push">I have verfied that this dog is being fostered in a location close enough for me to personally travel to, in order to adopt this animal, should I be the approved adopter.</label>
+                </div>
+                <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
+                  <select id="checkbox-6" name="verified">
+                    <option value="yes-6">yes</option>
+                    <option value="no-6">no</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
+              <div class="grid">
+                <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ]">
+                  <label for="checkbox-7" class="milli push">I have thoroughly read and understand the information in the responsibilities that will come in adopting an animal with ABOWA.</label>
+                </div>
+                <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
+                  <select id="checkbox-7" name="verified">
+                    <option value="yes-7">yes</option>
+                    <option value="no-7">no</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="unit [ xs-1 s-1 m-1 l-1 ]">
-            <div class="grid">
-              <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ]">
-                <label for="checkbox-1" class="milli push">I understand that this application form is not a guarantee that the animal I have applied for will still be available if my application to adopt an animal is approved, as there could be several applications for this dog already in progress or the dog may have a requirement that my home does not provide.</label>
+          <div class="grid pad-t">
+            <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] gutter-1-8">
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="first-last-name">First and Last Name:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input class="input-required" type="text" name="first-last-name" id="first-last-name" required>
+                </div>
               </div>
-              <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
-                <select id="checkbox-1" name="understand">
-                  <option value="yes-1">yes</option>
-                  <option value="no-1">no</option>
-                </select>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="partner-first-last-name">Partner's First and Last Name:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input type="text" name="partner-first-last-name" id="partner-first-last-name">
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="address">Address:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input class="input-required" type="text" name="address" id="address" value="" required>
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="province">Prov/State:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input class="input-required" type="text" name="province" id="province" value="" required>
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="email-address">Email Address:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input class="input-required" type="email" name="email-address" id="email-address" value="" required>
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="primary-phone">Primary Phone Number:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input class="input-required" type="text" name="primary-phone" id="primary-phone" value="" required>
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="alternative-phone">Alternative Phone Number:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 gutter-1-2">
+                  <input type="text" name="alternative-phone" id="alternative-phone">
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="best-time">Best time to call:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input type="text" name="best-time" id="best-time">
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="employer">Your Employer:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input class="input-required" type="text" name="employer" id="employer" required>
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="job-title">Job Title:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input type="text" name="job-title" id="job-title">
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="partner-employer">Partner's Employer:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input type="text" name="partner-employer" id="partner-employer">
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="partner-job-title">Partner's Job Title:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input type="text" name="partner-job-title" id="partner-job-title">
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="children">Number of Children:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input class="input-required" type="text" name="children" id="children" required>
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="children-age">Range of Children's Ages:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input class="input-required" type="text" name="children-age" id="children-age" required>
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                </div>
+              </div>
+
+              <div class="grid">
+                <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
+                  <label class="micro" for="number-of-residents">Total number of people residing in home:</label>
+                </div>
+                <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
+                  <input class="input-required" type="text" name="number-of-residents" id="number-of-residents" required>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div class="unit [ xs-1 s-1 m-1 l-1 ] ">
-            <div class="grid">
-              <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ] ">
-                <label for="checkbox-2" class="milli push">I understand that ABOWA does not approve their animals to applicants on a "first come first serve" basis, it is the best interest of the animal that is considered in the event of multiple applications for the same animal and the home best suited to the specific needs of the animal will be selected.</label>
-              </div>
-              <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
-                <select id="checkbox-2" name="if-not-approved">
-                  <option value="yes-2">yes</option>
-                  <option value="no-2">no</option>
-                </select>
-              </div>
-            </div>
-          </div>
-
-          <div class="unit xs-1 s-1 m-1 l-1">
-            <div class="grid">
-              <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ] ">
-                <label for="checkbox-3" class="milli push">In the event that the animal I have applied for is approved to another adopter before my application is processed I will select another animal from the ABOWA website and continue with my application screening.</label>
-              </div>
-              <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
-                <select id="checkbox-3" name="in-event">
-                  <option value="yes-3">yes</option>
-                  <option value="no-3">no</option>
-                </select>
-              </div>
-            </div>
-          </div>
-
-          <div class="unit [ xs-1 s-1 m-1 l-1 ] ">
-            <div class="grid">
-              <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ] ">
-                <label for="checkbox-4" class="milli push"> I understand and accept that virtually all "rescued" animal will have behavioral issues of varying degrees. Many of these animals have been abused or neglected and have a tendency to be more timid and/or defensive than an animal raised from birth by a knowledgeable and responsible dog owner. I understand and accept that while all known behavioral issues will be disclosed prior to the adoption being completed, it is entirely possible that minor or major behavioral issues may arise after the adoption has occurred and the dog is in my home. I am not expecting a pre-trained animal and am willing to work with this dog to help it overcome any issues it may have, or develops while under my care.</label>
-              </div>
-              <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
-                <select id="checkbox-4" name="behavioral">
-                  <option value="yes-4">yes</option>
-                  <option value="no-4">no</option>
-                </select>
-              </div>
-            </div>
-          </div>
-
-          <div class="unit [ xs-1 s-1 m-1 l-1 ] ">
-            <div class="grid">
-              <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ] ">
-                <label for="checkbox-5" class="milli push">I understand and accept that although all ABOWA animals have been evaluated by a veterinarian, and that a copy of the veterinarian's report(s) will be provided at the time of adoption, it is possible that the animal may have minor or major medical issues that are undiagnosed. I understand and accept that the approximate age of the animal is estimated by a veterinarian and may be slightly or significantly inaccurate.</label>
-              </div>
-              <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
-                <select id="checkbox-5" name="health">
-                  <option value="yes-5">yes</option>
-                  <option value="no-5">no</option>
-                </select>
-              </div>
-            </div>
-          </div>
-
-          <div class="unit [ xs-1 s-1 m-1 l-1 ] ">
-            <div class="grid">
-              <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ] ">
-                <label for="checkbox-6" class="milli push">I have verfied that this dog is being fostered in a location close enough for me to personally travel to, in order to adopt this animal, should I be the approved adopter.</label>
-              </div>
-              <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
-                <select id="checkbox-6" name="verified">
-                  <option value="yes-6">yes</option>
-                  <option value="no-6">no</option>
-                </select>
-              </div>
-            </div>
-          </div>
-
-          <div class="unit [ xs-1 s-1 m-1 l-1 ] push">
-            <div class="grid">
-              <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ]">
-                <label for="checkbox-7" class="milli push">I have thoroughly read and understand the information in the responsibilities that will come in adopting an animal with ABOWA.</label>
-              </div>
-              <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-2">
-                <select id="checkbox-7" name="verified">
-                  <option value="yes-7">yes</option>
-                  <option value="no-7">no</option>
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="grid pad-t">
-          <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] gutter-1-8">
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="first-last-name">First and Last Name:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input class="input-required" type="text" name="first-last-name" id="first-last-name" required>
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="partner-first-last-name">Partner's First and Last Name:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input type="text" name="partner-first-last-name" id="partner-first-last-name">
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="address">Address:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input class="input-required" type="text" name="address" id="address" value="" required>
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="province">Prov/State:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input class="input-required" type="text" name="province"  id="province" value="" required>
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="email">Email Address:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input class="input-required" type="email" name="email-address"  id="email-address" value="" required>
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="primary-phone">Primary Phone Number:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input class="input-required" type="text" name="primary-phone"  id="primary-phone" value="" required>
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="alternative-phone">Alternative Phone Number:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 gutter-1-2">
-                <input type="text" name="alternative-phone"  id="alternative-phone">
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="best-time">Best time to call:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input type="text" name="best-time"  id="best-time">
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="employer">Your Employer:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input class="input-required" type="text" name="employer"  id="employer" required>
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="job-title">Job Title:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input type="text" name="job-title"  id="job-title">
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="partner-employer">Partner's Employer:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input type="text" name="partner-employer"  id="partner-employer">
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="partner-job-title">Partner's Job Title:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input type="text" name="partner-job-title"  id="partner-job-title">
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="children">Number of Children:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input class="input-required" type="text" name="children"  id="children" required>
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="children-age">Range of Children's Ages:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input class="input-required" type="text" name="children-age"  id="children-age" required>
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-              </div>
-            </div>
-
-            <div class="grid">
-              <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 ] push">
-                <label class="micro" for="number-of-residents">Total number of people residing in home:</label>
-              </div>
-              <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                <input class="input-required" type="text" name="number-of-residents"  id="number-of-residents" required>
-              </div>
-            </div>
-          </div>
 
             <div class="unit [ xs-1-2 s-1-2 m-1-2 l-1-2 ] gutter-1-8">
 
@@ -377,7 +381,7 @@
                   <label class="micro" for="alternative-email">Alternative Email:</label>
                 </div>
                 <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                  <input type="email" name="alternative-email" id="alternative-email" value="" >
+                  <input type="email" name="alternative-email" id="alternative-email" value="">
                 </div>
               </div>
 
@@ -399,7 +403,7 @@
                 <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ]">
                   <label for="phone-type-2" class="micro push">Type:</label>
                 </div>
-                <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-1-2" >
+                <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-1-2">
                   <select id="phone-type-2" name="verified">
                     <option value="">Home</option>
                     <option value="">Cell</option>
@@ -413,7 +417,7 @@
                 <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ]">
                   <label for="permision-call-work" class="micro push">Can we call you at work?</label>
                 </div>
-                <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-1-2" >
+                <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-1-2">
                   <select id="permision-call-work" name="permision-call-work">
                     <option value="yes-no-1">yes</option>
                     <option value="yes-no-1">no</option>
@@ -426,7 +430,7 @@
                   <label class="micro" for="employer-phone">Your Employer's Phone Number:</label>
                 </div>
                 <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                  <input class="input-required" type="text" name="employer-phone"  id="employer-phone" value="" required>
+                  <input class="input-required" type="text" name="employer-phone" id="employer-phone" value="" required>
                 </div>
               </div>
 
@@ -435,7 +439,7 @@
                   <label class="micro" for="employed-since">Employed Since:</label>
                 </div>
                 <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                  <input type="text" name="employed-since"  id="employed-since">
+                  <input type="text" name="employed-since" id="employed-since">
                 </div>
               </div>
 
@@ -444,7 +448,7 @@
                   <label class="micro" for="partner-employer-phone">Partner's Employer's Phone Number:</label>
                 </div>
                 <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                  <input type="text" name="partner-employer-phone"  id="partner-employer-phone">
+                  <input type="text" name="partner-employer-phone" id="partner-employer-phone">
                 </div>
               </div>
 
@@ -453,15 +457,15 @@
                   <label class="micro" for="partner-employed-since">Employed Since:</label>
                 </div>
                 <div class="unit [ xs-1 s-1-2 m-1-2 l-1-2 ] gutter-1-2">
-                  <input type="text" name="partner-employed-since"  id="partner-employed-since">
+                  <input type="text" name="partner-employed-since" id="partner-employed-since">
                 </div>
               </div>
 
               <div class="grid">
-              <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ]">
-                <label for="children-gender" class="micro push-1-2">Children genders:</label>
-              </div>
-                <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-1-2" >
+                <div class="unit [ xs-1 s-2-3 m-3-4 l-3-4 ]">
+                  <label for="children-gender" class="micro push-1-2">Children genders:</label>
+                </div>
+                <div class="unit [ xs-1-2 s-1-3 m-1-4 l-1-4 ] gutter-1-2">
                   <select id="children-gender" name="children-gender">
                     <option value="gender-select">Both</option>
                     <option value="gender-select">Girl</option>
@@ -485,7 +489,7 @@
                   <label class="micro" for="unspecified-age">Age(s) of any not already not specified:</label>
                 </div>
                 <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter-1-2">
-                  <input type="text" name="unspecified-age"  id="unspecified-age" value="" >
+                  <input type="text" name="unspecified-age" id="unspecified-age" value="">
                 </div>
               </div>
             </div>
@@ -520,7 +524,7 @@
                   <input type="email" id="email" required>
                 </div>
                 <div class="text-center push-0">
-                  <button type="submit"  class="btn btn-ghost gutter bold" name="button">Submit</button>
+                  <button type="submit" class="btn btn-ghost gutter bold">Submit</button>
                 </div>
               </div>
             </fieldset>
@@ -533,22 +537,22 @@
           <nav>
             <ul class="list-group gutter text-left">
               <li>
-                <p class="icon-link footer-nav push-0 inline">Surrender a Pet</p>
+                <p class="icon-link-footer footer-nav push-0 inline">Surrender a Pet</p>
               </li>
               <li>
-                <p class="icon-link footer-nav push-0 inline">Lost and Found</p>
+                <p class="icon-link-footer footer-nav push-0 inline">Lost and Found</p>
               </li>
               <li>
-                <p class="icon-link footer-nav push-0 inline">Animal Licensing</p>
+                <p class="icon-link-footer footer-nav push-0 inline">Animal Licensing</p>
               </li>
               <li>
-                <p class="icon-link footer-nav push-0 inline">Humane Education</p>
+                <p class="icon-link-footer footer-nav push-0 inline">Humane Education</p>
               </li>
               <li>
-                <p class="icon-link footer-nav push-0 inline">Microchipping</p>
+                <p class="icon-link-footer footer-nav push-0 inline">Microchipping</p>
               </li>
               <li>
-                <p class="icon-link footer-nav push-0 inline">Cremation</p>
+                <p class="icon-link-footer footer-nav push-0 inline">Cremation</p>
               </li>
             </ul>
           </nav>
@@ -557,10 +561,13 @@
           <h3 class="giga push-1-4">Contact Us</h3>
           <hr>
           <div class=" gutter">
-            <dl >
-              <dt class="bold">3173 Hwy K 68 Ottawa,</dt><dd class="bold"> Kansas 66067</dd>
-              <dt>Phone:</dt><dd class="push-0">(888) 888-8888</dd>
-              <dt>Fax:</dt><dd>(888) 888-8888</dd>
+            <dl>
+              <dt class="bold">3173 Hwy K 68 Ottawa,</dt>
+              <dd class="bold"> Kansas 66067</dd>
+              <dt>Phone:</dt>
+              <dd class="push-0">(888) 888-8888</dd>
+              <dt>Fax:</dt>
+              <dd>(888) 888-8888</dd>
             </dl>
           </div>
         </div>
