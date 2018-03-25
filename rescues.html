@@ -4,13 +4,12 @@
   <meta charset="utf-8">
   <title>ABOWA • Available Rescues</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="apple-touch-icon" href="/favicon-196.png">
+  <link href="images/favicon.ico" rel="shortcut icon">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400|Merriweather:400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700|Merriweather:400,700" rel="stylesheet">
 
 </head>
 <body>
@@ -32,9 +31,7 @@
           <li class="push-1-4"><a class="icon-link gutter-1-4 bold" href="index.html">Home</a></li>
           <li class="push-1-4"><a class="icon-link gutter-1-4 bold" href="rescues.html">Adoptable Animals</a></li>
           <li class="push-1-4"><a class="icon-link gutter-1-4 bold" href="adopt.html">Application</a></li>
-          <li class="push-1-4">
-            <p class="icon-link gutter-1-4 bold push-none">Donate</p>
-          </li>
+          <li class="push-1-4"><a class="icon-link gutter-1-4 bold">Donate</a></li>
         </ul>
       </nav>
     </div>
@@ -49,12 +46,11 @@
         <div class="absolute pin-c pad-t call-to-action">
           <h1 class="tena push-0 bold">ABOWA</h1>
           <p class="giga">With your help we have been able to save countless lives! Thank you for your support.</p>
-          <a class="btn btn-ghost mega" href="adopt.html">Fill out the form here</a>
         </div>
       </div>
     </section>
-    <section class="gutter pad-t-2 pad-b-2" id="about-us">
-      <h2 class="push-0 pad-t-2">ABOWA Initiative</h2>
+    <section class="gutter  pad-t-2 pad-b-2" id="about-us">
+      <h2 class="push-0 pad-t-2">ABOWA iniciative</h2>
       <p class="pad-b-2">We have many wonderful animals available for adoption. All of them are looking for homes to call their own, and every one of them deserves a chance. Please take your time browsing. If you don’t find your new pet today, please bookmark this page and check back regularly. There are always new animals arriving at ABOWA daily. For more information please call our office or email us at info@abowa.org.</p>
     </section>
 
@@ -66,13 +62,24 @@
         <fieldset>
           <legend class="push-none normal">Search your animal type:</legend>
           <input id="all-animals" type="radio" name="filter" checked>
-          <label class="micro push-r-1-2 push-1-2" for="all-animals">All</label>
+          <label class="micro push-r-1-2 push-1-2" for="all-animals" tabindex="0">All</label>
           <input class="all-bears" id="all-bears" type="radio" name="filter">
-          <label class="micro gutter-1-2 push-1-2" for="all-bears">Bears</label>
+          <label class="micro gutter-1-2 push-1-2" for="all-bears"  tabindex="0">Bears</label>
           <input class="other-animals" id="other-animals" type="radio" name="filter">
-          <label class="micro gutter-1-2 push-1-2" for="other-animals">Other Wild Animals</label>
+          <label class="micro gutter-1-2 push-1-2" for="other-animals"  tabindex="0">Other Wild Animals</label>
 
           <ul class="grid list-group animal-list">
+
+            <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ] island-1-4 relative crop hover-box all-animal-select bears-select animal-index">
+              <div class="embed embed-3by2 gutter">
+                <img class="embed-item" src="images/loretta.jpg" alt="" aria-details="An-image-of-Loretta-the-4-year-old-brown-bear">
+                <div class="hover-box-caption island-1-2 w-1 absolute">
+                  <p class="push-0 milli not-bold">Brown Bear | 4 years old</p>
+                  <p class="push-0 micro not-bold">Found lost and hungry in Hudson Bay, with a broken paw. Playful and great bear, looking for a nice home.</p>
+                </div>
+              </div>
+              <p class="animal-name giga bold serif absolute pin-tl pad-t-1-2 gutter">Loretta</p>
+            </li>
 
             <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ] island-1-4 relative crop hover-box all-animal-select bears-select animal-index">
               <div class="embed embed-3by2">
@@ -83,6 +90,17 @@
                 </div>
               </div>
               <p class="animal-name giga bold serif absolute pin-tl pad-t-1-2 gutter">Mya</p>
+            </li>
+
+            <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ] island-1-4 relative crop hover-box all-animal-select bears-select animal-index">
+              <div class="embed embed-3by2">
+                <img class="embed-item" src="images/aspen.jpg" alt="" aria-details="An-image-of-Aspen-the-3-month-old-American-black-bear-cub">
+                <div class="hover-box-caption island w-1 absolute">
+                  <p class="push-0 milli not-bold">American Black Bear | 3 months old</p>
+                  <p class="push-0 micro not-bold">Rescued from forest as a newborn, without her mom. Sweet, healthy cub, looking for a nice home.</p>
+                </div>
+              </div>
+              <p class="animal-name giga bold serif absolute pin-tl pad-t-1-2 gutter">Aspen</p>
             </li>
 
             <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ] island-1-4 relative crop hover-box all-animal-select bears-select animal-index">
@@ -109,6 +127,50 @@
 
             <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ] island-1-4 relative crop hover-box all-animal-select other-animals-select animal-index">
               <div class="embed embed-3by2">
+                <img class="embed-item" src="images/mel.jpg" alt="" aria-details="An-image-of-Mel-the-1-year-old-red-panda">
+                <div class="hover-box-caption island w-1 absolute">
+                  <p class="push-0 milli not-bold">Red Panda | 1 year old</p>
+                  <p class="push-0 micro not-bold">Rescued from an abusive household. Playful red panda, looking for a nice home.</p>
+                </div>
+              </div>
+              <p class="animal-name giga bold serif absolute pin-tl pad-t-1-2 gutter">Mel</p>
+            </li>
+
+            <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ] island-1-4 relative crop hover-box all-animal-select other-animals-select animal-index">
+              <div class="embed embed-3by2">
+                <img class="embed-item" src="images/arlene.jpg" alt="" aria-details="An-image-of-Arlene-the-4-year-old-chimpanzee">
+                <div class="hover-box-caption island w-1 absolute">
+                  <p class="push-0 milli not-bold">Chimpanzee Monkey | 4 years old</p>
+                  <p class="push-0 micro not-bold">Rescued from a circus. Sweet and attentive little chimpanzee, looking for a nice home.</p>
+                </div>
+              </div>
+              <p class="animal-name giga bold serif absolute pin-tl pad-t-1-2 gutter">Arlene</p>
+            </li>
+
+            <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ] island-1-4 relative crop hover-box all-animal-select other-animals-select animal-index">
+              <div class="embed embed-3by2">
+                <img class="embed-item" src="images/mr.gibbs.jpg" alt="" aria-details="An-image-of-Mr.Gibbs-the-7-year-old-giraffe">
+                <div class="hover-box-caption island w-1 absolute">
+                  <p class="push-0 milli not-bold">Northern Giraffe | 7 years old</p>
+                  <p class="push-0 micro not-bold">Rescued from a kingston's zoo. Playful giraffe, looking for a nice home.</p>
+                </div>
+              </div>
+              <p class="animal-name giga bold serif absolute pin-tl pad-t-1-2 gutter">Mr.Gibbs</p>
+            </li>
+
+            <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ] island-1-4 relative crop hover-box all-animal-select other-animals-select animal-index">
+              <div class="embed embed-3by2">
+                <img class="embed-item" src="images/coco.jpg" alt="" aria-details="An-image-of-Coco-the-10-year-old-koala-bear">
+                <div class="hover-box-caption island w-1 absolute">
+                  <p class="push-0 milli not-bold">Koala Bear | 10 years old</p>
+                  <p class="push-0 micro not-bold">Rescued from an abusive household. Beautiful Koala, looking for a nice home.</p>
+                </div>
+              </div>
+              <p class="animal-name giga bold serif absolute pin-tl pad-t-1-2 gutter">Coco</p>
+            </li>
+
+            <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ] island-1-4 relative crop hover-box all-animal-select other-animals-select animal-index">
+              <div class="embed embed-3by2">
                 <img class="embed-item" src="images/miss-zee.jpg" alt="" aria-details="An-image-of-Miss-zee-the-2-year-old-zebra">
                 <div class="hover-box-caption island w-1 absolute">
                   <p class="push-0 milli not-bold">Wild Zebra | 2 years old</p>
@@ -123,6 +185,7 @@
 
     </section>
   </main>
+
 
   <footer role="contentinfo" id="content-info" class="pad-t ad-info-footer" tabindex="0">
     <section class="push">
@@ -147,7 +210,7 @@
                   <input type="email" id="email" required>
                 </div>
                 <div class="text-center push-0">
-                  <button type="submit" class="btn btn-ghost gutter bold">Submit</button>
+                  <button type="submit"  class="btn btn-ghost gutter bold" name="button">Submit</button>
                 </div>
               </div>
             </fieldset>
@@ -160,22 +223,22 @@
           <nav>
             <ul class="list-group gutter text-left">
               <li>
-                <p class="icon-link-footer footer-nav push-0 inline">Surrender a Pet</p>
+                <p class="icon-link footer-nav push-0 inline">Surrender a Pet</p>
               </li>
               <li>
-                <p class="icon-link-footer footer-nav push-0 inline">Lost and Found</p>
+                <p class="icon-link footer-nav push-0 inline">Lost and Found</p>
               </li>
               <li>
-                <p class="icon-link-footer footer-nav push-0 inline">Animal Licensing</p>
+                <p class="icon-link footer-nav push-0 inline">Animal Licensing</p>
               </li>
               <li>
-                <p class="icon-link-footer footer-nav push-0 inline">Humane Education</p>
+                <p class="icon-link footer-nav push-0 inline">Humane Education</p>
               </li>
               <li>
-                <p class="icon-link-footer footer-nav push-0 inline">Microchipping</p>
+                <p class="icon-link footer-nav push-0 inline">Microchipping</p>
               </li>
               <li>
-                <p class="icon-link-footer footer-nav push-0 inline">Cremation</p>
+                <p class="icon-link footer-nav push-0 inline">Cremation</p>
               </li>
             </ul>
           </nav>
@@ -184,13 +247,10 @@
           <h3 class="giga push-1-4">Contact Us</h3>
           <hr>
           <div class=" gutter">
-            <dl>
-              <dt class="bold">3173 Hwy K 68 Ottawa,</dt>
-              <dd class="bold"> Kansas 66067</dd>
-              <dt>Phone:</dt>
-              <dd class="push-0">(888) 888-8888</dd>
-              <dt>Fax:</dt>
-              <dd>(888) 888-8888</dd>
+            <dl >
+              <dt class="bold">3173 Hwy K 68 Ottawa,</dt><dd class="bold"> Kansas 66067</dd>
+              <dt>Phone:</dt><dd class="push-0">(888) 888-8888</dd>
+              <dt>Fax:</dt><dd>(888) 888-8888</dd>
             </dl>
           </div>
         </div>
@@ -198,20 +258,13 @@
           <h3 class="giga push-1-4"> Hours</h3>
           <hr>
           <dl id="hours-day" class="list-group-inline gutter hours">
-            <dt class="bold">Mon:</dt>
-            <dd class="gutter-1-4 push-0"> 11AM - 6PM</dd>
-            <dt class="bold">Tues:</dt>
-            <dd class="gutter-1-4 push-0 bold">Closed</dd>
-            <dt class="bold">Wed:</dt>
-            <dd class="gutter-1-4 push-0">1AM - 6PM</dd>
-            <dt class="bold">Thurs:</dt>
-            <dd class="gutter-1-4 push-0">1AM - 6PM</dd>
-            <dt class="bold">Fri:</dt>
-            <dd class="gutter-1-4 push-0 bold">Closed</dd>
-            <dt class="bold">Sat:</dt>
-            <dd class="gutter-1-4 push-0">1AM - 6PM</dd>
-            <dt class="bold">Sun:</dt>
-            <dd class="gutter-1-4 push-0 bold">Closed</dd>
+            <dt class="bold">Mon:</dt><dd class="gutter-1-4 push-0"> 11AM - 6PM</dd>
+            <dt class="bold">Tues:</dt><dd class="gutter-1-4 push-0 bold">Closed</dd>
+            <dt class="bold">Wed:</dt><dd class="gutter-1-4 push-0">1AM - 6PM</dd>
+            <dt class="bold">Thurs:</dt><dd class="gutter-1-4 push-0">1AM - 6PM</dd>
+            <dt class="bold">Fri:</dt><dd class="gutter-1-4 push-0 bold">Closed</dd>
+            <dt class="bold">Sat:</dt><dd class="gutter-1-4 push-0">1AM - 6PM</dd>
+            <dt class="bold">Sun:</dt><dd class="gutter-1-4 push-0 bold">Closed</dd>
           </dl>
 
         </div>
